@@ -1,0 +1,36 @@
+.myId{
+display: flex;
+margin: 0 20px;
+position: absolute;
+top: 40%;
+}
+
+.myId li{
+border: 3px solid crimson;
+border-radius: 50%;
+padding: 10px;
+list-style: none;
+margin: 30px 5px;
+}
+
+
+.myId::before{
+ content: "";
+ height: 150px;
+ width: 3px;
+ position: absolute;
+background-color: crimson;
+margin-top: -118px;
+left: 32px;
+}
+.myId::after{
+ content: "";
+ height: 150px;
+ width: 3px;
+ position: absolute;
+background-color: crimson;
+margin-top: 190px;
+left: 32px;
+}
+
+

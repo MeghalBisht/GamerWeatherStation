@@ -1,0 +1,80 @@
+    .showData{
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    font-family: sans-serif;
+}
+
+.location{
+        width: 390px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .locationTemp{
+        padding: 0;
+        margin-top: 30px;
+        font-size: 80px;
+    }
+
+    .locationTemp span{
+           background-color: rgba(255, 255, 255, 0.312);
+        border-radius: 16px;
+        padding: 0 8px;
+    }
+
+    .locationWeather{
+        margin-top: 22px;
+        font-size: 35px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.852);
+        text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    }
+    
+    .locationDate{
+        text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.852);
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .locationSearch{
+        font-weight: 600;
+        margin-top: 15px;
+        font-size: 24px;
+         text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+         color: rgba(255, 255, 255, 0.852);
+    }
+
+    .gamerImg{
+        height: 150px;
+        border-radius: 50%;
+    }
+
+
+   @media screen and (max-width: 618px){
+       .location{
+        width: 250px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .locationTemp{
+        padding: 0;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .locationSearch{
+        font-size: 17px;
+    }
+   }
+
+   @media screen and (max-width: 350px){
+       *{
+           overflow: hidden;
+       }
+       .locationSearch{
+        font-size: 14px;
+    }
+   }

@@ -1,0 +1,88 @@
+    .inputBtns input{
+        padding: 10px;
+        margin: 5px;
+        margin-top: 10px;
+        border: 0px;
+        border-radius: 2px;
+        caret-color: crimson;
+        width: 250px;
+        border-left: 7px solid crimson;
+    }
+    
+    .inputBtns button{
+        background-color: crimson;
+        border-radius: 2px;
+        border: 0px;
+        padding: 10px;
+        margin: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .inputBtns input:focus{
+        outline: none;
+    }
+
+    .inputBtns button:hover,
+    .inputBtns button:focus{
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .Nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+    }
+
+    .Nav .wrapperDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: rgba(32, 59, 1, 0.5);
+    }
+    
+    .inputBtns{
+        top: 0;
+        position: absolute;
+    }
+
+    .wrapperDiv img{
+        border-radius: 5px;
+        width: 400px;
+        opacity: 0.44;
+        height: 550px;
+        opacity: 0.5;
+        transition: all 1s ease-in-out;
+    }
+
+    .displayImg{
+        transition: all 1s ease-in-out;
+        display: block !important;
+    }
+    
+    .nodisplayImg{
+        transition: all 1s ease-in-out;
+        display: none !important;
+    }
+    
+    .toggleImg{
+        position: relative;
+    }
+
+    @media screen and (max-width: 618px){
+    .wrapperDiv img{
+        width: 270px;
+        height: 450px;
+    }
+    .inputBtns input{
+        width: 100px;
+    }
+    
+}
