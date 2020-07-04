@@ -1,4 +1,4 @@
-Weather app created by Gamerdidi.
+Weather app 
 
 Skills used : 
 1. ReactJS
